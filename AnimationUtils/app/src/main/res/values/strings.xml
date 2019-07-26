@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Android动画合集</string>
+
+    <string name="type_vectordrawable">Vector动画相关</string>
+    <string name="type_bezier">Bezier曲线相关</string>
+    <string name="type_path_measure">PathMeasure的使用</string>
+    <string name="type_10_animation">10个动画效果</string>
+    <string name="type_custom_ratingBar">自定义动画RatingBar</string>
+    <string name="hiaqi_app">欢迎体验匿名视频社交App：嗨起</string>
+
+    <string name="bezier_second">二阶Bezier曲线</string>
+    <string name="bezier_third">三阶Bezier曲线</string>
+    <string name="bezier_draw_board">Bezier绘图板</string>
+    <string name="bezier_path_morphing">Bezier实现的轨迹变化动画</string>
+    <string name="bezier_wave">Bezier实现的水波纹动画</string>
+    <string name="bezier_shopping_cart">Bezier实现的购物车轨迹动画</string>
+
+    <string name="path_measure_canvas_path">PathMeasure实现的路径绘制</string>
+    <string name="path_measure_canvas2_path">实现路径绘制的另一种思想</string>
+    <string name="path_measure_getpostan">使用getPosTan()获取轨迹上的点</string>
+    <string name="path_measure_line_Animation">绘制线条并且做动画</string>
+
+    <string name="item_like_animation">直播点赞动画</string>
+    <string name="item_ball_animation">小球自由落体加载动画</string>
+    <string name="item_two_ball_animation">两个小球绕Y轴做动画</string>
+    <string name="item_six_ball_animation">六个小球从依次左到右加载动画</string>
+    <string name="item_two_ball_sticky_animation">两个粘性小球的加载动画</string>
+    <string name="item_loading_text_animation">Loading文字加载动画</string>
+    <string name="item_water_ripples_animation">贝塞尔实现的水波纹和图形叠加加载动画</string>
+    <string name="item_receive_message_animation">接收消息混合动画</string>
+</resources>

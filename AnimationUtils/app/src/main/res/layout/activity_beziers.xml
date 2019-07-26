@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <Button
+        style="@style/Btn.Red"
+        android:onClick="goSecondBezier"
+        android:text="@string/bezier_second"
+        android:textSize="@dimen/sp_14"/>
+
+    <Button
+        style="@style/Btn.Red"
+        android:onClick="goThirdBezier"
+        android:text="@string/bezier_third"
+        android:textSize="@dimen/sp_14"/>
+
+    <Button
+        style="@style/Btn.Red"
+        android:onClick="goDrawBoardBezier"
+        android:text="@string/bezier_draw_board"
+        android:textSize="@dimen/sp_14"/>
+
+    <Button
+        style="@style/Btn.Red"
+        android:onClick="goPathMorphingBezier"
+        android:text="@string/bezier_path_morphing"
+        android:textSize="@dimen/sp_14"/>
+
+    <Button
+        style="@style/Btn.Red"
+        android:onClick="goWaveBezier"
+        android:text="@string/bezier_wave"
+        android:textSize="@dimen/sp_14"/>
+
+    <Button
+        style="@style/Btn.Red"
+        android:onClick="goShoppingCartPathBezier"
+        android:text="@string/bezier_shopping_cart"
+        android:textSize="@dimen/sp_14"/>
+</LinearLayout>

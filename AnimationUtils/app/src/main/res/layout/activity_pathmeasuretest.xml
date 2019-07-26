@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <Button
+        style="@style/Btn.Red"
+        android:onClick="goCanvasPathPathMeasure"
+        android:text="@string/path_measure_canvas_path"/>
+
+    <Button
+        style="@style/Btn.Red"
+        android:onClick="goCanvasPath"
+        android:text="@string/path_measure_canvas2_path"/>
+
+    <Button
+        style="@style/Btn.Red"
+        android:onClick="goGetPosTan"
+        android:text="@string/path_measure_getpostan"/>
+
+    <Button
+        style="@style/Btn.Red"
+        android:onClick="goLineAnimation"
+        android:text="@string/path_measure_line_Animation"/>
+
+</LinearLayout>

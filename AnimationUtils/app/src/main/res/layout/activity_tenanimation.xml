@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        style="@style/Btn.Red"
+        android:onClick="goItemUserLike"
+        android:text="@string/item_like_animation"/>
+
+    <Button
+        style="@style/Btn.Red"
+        android:onClick="goItemSmallBall"
+        android:text="@string/item_ball_animation"/>
+
+    <Button
+        style="@style/Btn.Red"
+        android:onClick="goItemTwoBall"
+        android:text="@string/item_two_ball_animation"/>
+
+    <Button
+        style="@style/Btn.Red"
+        android:onClick="goItemSixBall"
+        android:text="@string/item_six_ball_animation"/>
+
+    <Button
+        style="@style/Btn.Red"
+        android:onClick="goItemTwoBallSticky"
+        android:text="@string/item_two_ball_sticky_animation"/>
+
+    <Button
+        style="@style/Btn.Red"
+        android:onClick="goItemLoadingText"
+        android:text="@string/item_loading_text_animation"/>
+
+    <Button
+        style="@style/Btn.Red"
+        android:onClick="goItemWaterRipples"
+        android:text="@string/item_water_ripples_animation"/>
+
+    <Button
+        style="@style/Btn.Red"
+        android:onClick="goItemReceiveMessage"
+        android:text="@string/item_receive_message_animation"/>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.angelstar.animation">
+
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".vector.VectorsActivity"/>
+        <activity android:name=".bezier.BezierActivity"/>
+        <activity android:name=".bezier.SecondBezierActivity"/>
+        <activity android:name=".bezier.ThirdBezierActivity"/>
+        <activity android:name=".bezier.DrawBoardActivity"/>
+        <activity android:name=".bezier.PathMorphingActivity"/>
+        <activity android:name=".bezier.WaveBezierAcitvity"/>
+        <activity android:name=".bezier.ShoppingCartPathActivity"/>
+        <activity android:name=".pathmeasure.PathMeasureActivity"/>
+        <activity android:name=".pathmeasure.CanvasPathMeasureActivity"/>
+        <activity android:name=".pathmeasure.CanvasPathSimpleActivity"/>
+        <activity android:name=".pathmeasure.PathMeasureGetPosTanActivity"/>
+        <activity android:name=".pathmeasure.LineAnimationActivity"/>
+        <activity android:name=".CustomRatingBarActivity"/>
+        <activity android:name=".item.TenAnimationActivity"/>
+        <activity android:name=".item.UserLikeActivity"/>
+        <activity android:name=".item.SmallBallActivity"/>
+        <activity android:name=".item.TwoBallAnimationActivity"/>
+        <activity android:name=".item.SixBallLoadingActivity"/>
+        <activity android:name=".item.StickyControlsActivity"/>
+        <activity android:name=".item.LoadingTextActivity"/>
+        <activity android:name=".item.WaterRipplesActivity"/>
+        <activity android:name=".item.ReceiveMessageActivity"/>
+    </application>
+
+</manifest>
